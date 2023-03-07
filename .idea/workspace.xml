@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bdfe318-8f63-4b10-aa18-bf3e4b5a5817" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MoviesManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MovieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SecondMovieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MoviesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Manager/services/MoviesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Manager/services/MovieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondMovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Manager/services/SecondMovieTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,27 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/IdeaProjects/Manager/src/test/java/org/example/Manager/services"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.SecondMovieTest.testSecondManager">
-    <configuration name="MovieTest.testThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.MovieTest.testZero (1)">
+    <configuration name="MovieTest.testZero (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Manager" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MovieTest" />
-      <option name="METHOD_NAME" value="testThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieTest.testZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Manager" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MovieTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Manager.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Manager.services" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Manager.services.MovieTest" />
       <option name="METHOD_NAME" value="testZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -93,6 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondMovieTest.testSecondManager (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Manager.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Manager.services" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Manager.services.SecondMovieTest" />
+      <option name="METHOD_NAME" value="testSecondManager" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SecondMovieTest.testSecondManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Manager" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieTest.testZero (1)" />
+        <item itemvalue="JUnit.SecondMovieTest.testSecondManager (1)" />
         <item itemvalue="JUnit.SecondMovieTest.testSecondManager" />
         <item itemvalue="JUnit.SecondMovieTest.test" />
         <item itemvalue="JUnit.SecondMovieTest.testSecond" />
-        <item itemvalue="JUnit.MovieTest.testZero" />
-        <item itemvalue="JUnit.MovieTest.testThree" />
       </list>
     </recent_temporary>
   </component>
